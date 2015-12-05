@@ -79,7 +79,7 @@ def mailer(msg, emailid):
         server.quit()
         print("[+] Mail sent to concerned authorities.")
     except:
-        print("[+] I am sorry, Wasn't able to perform my job well. Code for sending the mail got fucked up.")
+        print("[+] I am sorry, Wasn't able to perform my job well. Code for sending the mail is not working properly.")
 
 #Code for dumping the data into ElasticSearch.
 def dumpToElastic(bodydata, ip, port):
